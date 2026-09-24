@@ -1,0 +1,9 @@
+# Requerimientos del proyecto
+openai-agents>=0.2.0      # SDK de agentes (as_tool / handoffs)
+tzdata                    # zona horaria America/Guatemala en Windows
+python-dotenv             # carga el .env en el provider de promptfoo
+
+# Utilidades de documentacion y pruebas
+reportlab>=4.0            # genera docs/respuestas.pdf desde el Markdown
+pytest>=8.0               # pruebas de la capa de dominio
+cairosvg>=2.7             # opcional: exporta los diagramas SVG a PNG
