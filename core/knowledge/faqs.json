@@ -1,0 +1,205 @@
+{
+  "empresa": "Parachute S.A.",
+  "actualizado": "2026-09",
+  "faqs": [
+    {
+      "id": "requisitos-edad",
+      "categoria": "Requisitos",
+      "pregunta": "Cuales son los requisitos de edad y peso para saltar?",
+      "respuesta": "Debes ser mayor de 18 anios y presentar DPI o pasaporte vigente. El peso maximo permitido para salto tandem es de 100 kg (220 lb) por regulacion del equipo y del arnes.",
+      "keywords": [
+        "edad",
+        "anios",
+        "peso",
+        "kg",
+        "libras",
+        "requisitos",
+        "dpi",
+        "pasaporte",
+        "menor"
+      ]
+    },
+    {
+      "id": "precios",
+      "categoria": "Precios",
+      "pregunta": "Cuanto cuesta un salto?",
+      "respuesta": "El salto tandem desde 10,000 pies cuesta Q2,200 e incluye equipo, instructor certificado y seguro. El paquete con video y fotos 360 cuesta Q2,800. El curso AFF nivel 1 cuesta Q3,500.",
+      "keywords": [
+        "precio",
+        "costo",
+        "cuanto",
+        "cuesta",
+        "tarifa",
+        "quetzales",
+        "paquete",
+        "video",
+        "fotos"
+      ]
+    },
+    {
+      "id": "formas-pago",
+      "categoria": "Precios",
+      "pregunta": "Que formas de pago aceptan?",
+      "respuesta": "Aceptamos efectivo, tarjeta de credito o debito (Visa y MasterCard) y transferencia bancaria. Para reservar se requiere un anticipo del 50% que es reembolsable si el salto se cancela por clima.",
+      "keywords": [
+        "pago",
+        "pagar",
+        "tarjeta",
+        "efectivo",
+        "transferencia",
+        "anticipo",
+        "reserva",
+        "deposito"
+      ]
+    },
+    {
+      "id": "duracion",
+      "categoria": "Experiencia",
+      "pregunta": "Cuanto dura la experiencia completa?",
+      "respuesta": "La visita completa dura entre 3 y 4 horas: 45 minutos de briefing de seguridad, 20 minutos de vuelo hasta los 10,000 pies, aproximadamente 35 segundos de caida libre y de 5 a 7 minutos de vuelo bajo el paracaidas.",
+      "keywords": [
+        "duracion",
+        "dura",
+        "tiempo",
+        "horas",
+        "caida libre",
+        "minutos",
+        "briefing"
+      ]
+    },
+    {
+      "id": "clima-cancelacion",
+      "categoria": "Clima",
+      "pregunta": "Que pasa si el clima cancela mi salto?",
+      "respuesta": "Si el clima no permite saltar de forma segura reprogramamos la cita sin costo o devolvemos el 100% del anticipo. La decision la toma el jefe de operaciones el mismo dia con base en viento, rafagas, lluvia y cobertura de nubes.",
+      "keywords": [
+        "clima",
+        "lluvia",
+        "cancelar",
+        "cancelacion",
+        "reprogramar",
+        "viento",
+        "reembolso",
+        "mal tiempo"
+      ]
+    },
+    {
+      "id": "criterios-clima",
+      "categoria": "Clima",
+      "pregunta": "Que condiciones climaticas se necesitan para saltar?",
+      "respuesta": "Viento en superficie menor a 20 km/h es ideal y entre 20 y 28 km/h solo se permite tandem con instructor experimentado; arriba de 28 km/h no se salta. Las rafagas no pueden superar 35 km/h, no puede haber nada de precipitacion (mas de 0.0 mm cancela) y la cobertura de nubes debe ser menor a 30% para ser ideal, hasta 75% es marginal y arriba de 75% esta prohibido.",
+      "keywords": [
+        "condiciones",
+        "viento",
+        "rafagas",
+        "nubes",
+        "visibilidad",
+        "precipitacion",
+        "limites",
+        "criterios",
+        "seguro"
+      ]
+    },
+    {
+      "id": "ubicacion",
+      "categoria": "Logistica",
+      "pregunta": "Donde estan ubicados y como llego?",
+      "respuesta": "La zona de aterrizaje esta en las coordenadas 14.013722, -90.771611, en la costa sur de Guatemala. Hay parqueo gratuito en el predio y se recomienda llegar 45 minutos antes de la hora de la cita.",
+      "keywords": [
+        "ubicacion",
+        "donde",
+        "direccion",
+        "llegar",
+        "coordenadas",
+        "parqueo",
+        "mapa",
+        "zona"
+      ]
+    },
+    {
+      "id": "horarios",
+      "categoria": "Logistica",
+      "pregunta": "En que horarios operan?",
+      "respuesta": "Operamos saltos en cuatro horarios: 08:00, 10:00, 13:00 y 15:00. Cada horario tiene cupo para 2 personas. Los horarios de la maniana suelen tener mejor clima porque el viento aumenta por la tarde.",
+      "keywords": [
+        "horario",
+        "horarios",
+        "hora",
+        "cupo",
+        "disponibilidad",
+        "manana",
+        "tarde",
+        "abren"
+      ]
+    },
+    {
+      "id": "que-llevar",
+      "categoria": "Experiencia",
+      "pregunta": "Que debo llevar el dia del salto?",
+      "respuesta": "Lleva documento de identificacion, ropa comoda deportiva y tenis cerrados con cordon. No se permiten sandalias, faldas ni joyeria suelta. Nosotros proporcionamos el arnes, las gafas y todo el equipo de paracaidismo.",
+      "keywords": [
+        "llevar",
+        "ropa",
+        "zapatos",
+        "tenis",
+        "equipo",
+        "traer",
+        "vestir",
+        "lentes"
+      ]
+    },
+    {
+      "id": "seguridad",
+      "categoria": "Seguridad",
+      "pregunta": "Que tan seguro es saltar en paracaidas?",
+      "respuesta": "Todos nuestros instructores tienen certificacion USPA y mas de 1,000 saltos registrados. El equipo lleva paracaidas principal, reserva y dispositivo de apertura automatica (AAD), y se revisa antes de cada salto.",
+      "keywords": [
+        "seguro",
+        "seguridad",
+        "riesgo",
+        "instructor",
+        "certificacion",
+        "uspa",
+        "reserva",
+        "accidente"
+      ]
+    },
+    {
+      "id": "salud",
+      "categoria": "Requisitos",
+      "pregunta": "Hay restricciones medicas?",
+      "respuesta": "No pueden saltar personas con problemas cardiacos, epilepsia, lesiones recientes de espalda o cuello, ni mujeres embarazadas. Si buceaste en las ultimas 24 horas debes esperar. En caso de duda pedimos constancia medica.",
+      "keywords": [
+        "salud",
+        "medico",
+        "embarazo",
+        "corazon",
+        "lesion",
+        "espalda",
+        "restricciones",
+        "enfermedad",
+        "buceo",
+        "embarazada",
+        "embarazadas",
+        "cardiaco",
+        "epilepsia",
+        "puedo"
+      ]
+    },
+    {
+      "id": "reprogramar",
+      "categoria": "Citas",
+      "pregunta": "Puedo reprogramar o cancelar mi cita?",
+      "respuesta": "Si, puedes reprogramar sin costo hasta 24 horas antes de tu cita. Con menos de 24 horas de aviso se retiene el 25% del anticipo, salvo que la cancelacion sea por clima.",
+      "keywords": [
+        "reprogramar",
+        "cambiar",
+        "cancelar",
+        "cita",
+        "reserva",
+        "mover",
+        "fecha"
+      ]
+    }
+  ]
+}
