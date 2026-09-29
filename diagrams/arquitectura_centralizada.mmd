@@ -1,0 +1,15 @@
+---
+title: Arquitectura 1 - Orquestacion centralizada
+---
+flowchart TD
+    U([Usuario]) -->|consulta| C[Coordinador Parachute<br/>unico agente que habla con el cliente]
+    C -->|as_tool: consultar_faqs| FAQ[Agente FAQ]
+    C -->|as_tool: evaluar_clima_salto| CLIMA[Agente Clima]
+    C -->|as_tool: gestionar_cita| AGENDA[Agente Agenda]
+    FAQ --> TF["buscar_en_faqs()<br/>listar_temas_faq()"]
+    CLIMA --> TC["fecha_de_hoy()<br/>consultar_clima()<br/>evaluar_condiciones_de_salto()"]
+    AGENDA --> TA["consultar_disponibilidad()<br/>agendar_cita()<br/>listar_citas()<br/>cancelar_cita()"]
+    FAQ -.resultado.-> C
+    CLIMA -.resultado.-> C
+    AGENDA -.resultado.-> C
+    C -->|respuesta final| U

@@ -1,0 +1,14 @@
+---
+title: Arquitectura 2 - Orquestacion jerarquica
+---
+flowchart TD
+    U([Usuario]) -->|consulta| D[Director de Servicio<br/>Nivel 1 - estrategico]
+    D -->|as_tool: gerencia_informacion| GI[Gerente de Informacion<br/>Nivel 2 - tactico]
+    D -->|as_tool: gerencia_operaciones| GO[Gerente de Operaciones de Vuelo<br/>Nivel 2 - tactico]
+    GI -->|as_tool: agente_faq| FAQ[Agente FAQ<br/>Nivel 3 - operativo]
+    GO -->|as_tool: agente_clima| CLIMA[Agente Clima<br/>Nivel 3 - operativo]
+    GO -->|as_tool: agente_agenda| AGENDA[Agente Agenda<br/>Nivel 3 - operativo]
+    FAQ --> TF["buscar_en_faqs()<br/>listar_temas_faq()"]
+    CLIMA --> TC["fecha_de_hoy()<br/>consultar_clima()<br/>evaluar_condiciones_de_salto()"]
+    AGENDA --> TA["consultar_disponibilidad()<br/>agendar_cita()<br/>listar_citas()<br/>cancelar_cita()"]
+    D -->|respuesta final| U

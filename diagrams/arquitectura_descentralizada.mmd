@@ -1,0 +1,17 @@
+---
+title: Arquitectura 3 - Orquestacion descentralizada
+---
+flowchart TD
+    U([Usuario]) -->|consulta| R[Recepcion<br/>triage inicial]
+    R -->|handoff| FAQ[Agente FAQ]
+    R -->|handoff| CLIMA[Agente Clima]
+    R -->|handoff| AGENDA[Agente Agenda]
+    FAQ <-->|handoff| CLIMA
+    CLIMA <-->|handoff| AGENDA
+    FAQ <-->|handoff| AGENDA
+    FAQ --> TF["buscar_en_faqs()<br/>listar_temas_faq()"]
+    CLIMA --> TC["fecha_de_hoy()<br/>consultar_clima()<br/>evaluar_condiciones_de_salto()"]
+    AGENDA --> TA["consultar_disponibilidad()<br/>agendar_cita()<br/>listar_citas()<br/>cancelar_cita()<br/>evaluar_condiciones_de_salto()"]
+    FAQ -->|responde directo| U
+    CLIMA -->|responde directo| U
+    AGENDA -->|responde directo| U

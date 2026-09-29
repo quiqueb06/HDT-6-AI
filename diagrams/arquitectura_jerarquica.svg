@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="660" viewBox="0 0 980 660">
+  <defs>
+    <marker id="flecha" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#000000" />
+    </marker>
+    <marker id="flecha_suave" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#000000" />
+    </marker>
+  </defs>
+  <rect width="980" height="660" fill="#ffffff" />
+  <text x="490.0" y="40" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="22"
+        font-weight="bold" fill="#000000">Arquitectura 2 - Orquestacion jerarquica</text>
+  <text x="490.0" y="63" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="13"
+        fill="#000000">architectures/hierarchical.py</text>
+  <rect x="400" y="78" width="180" height="44" rx="10" ry="10" fill="#ffffff" stroke="#000000" stroke-width="2.5" />
+  <text x="490.0" y="104" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="14" font-weight="bold" fill="#000000">Usuario</text>
+  <line x1="490" y1="122" x2="490" y2="152" stroke="#000000" stroke-width="2" marker-end="url(#flecha)" />
+  <rect x="457.0" y="119.0" width="66" height="17" rx="4" fill="#ffffff" />
+  <text x="490.0" y="131.0" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#000000">consulta</text>
+  <rect x="340" y="152" width="300" height="62" rx="10" ry="10" fill="#ffffff" stroke="#000000" stroke-width="2.5" />
+  <text x="490.0" y="178" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="14" font-weight="bold" fill="#000000">Director de Servicio</text>
+  <text x="490.0" y="197" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#000000">Nivel 1 - estrategico: clasifica y delega</text>
+  <line x1="420" y1="214" x2="235" y2="268" stroke="#000000" stroke-width="2" marker-end="url(#flecha)" />
+  <rect x="266.0" y="223.0" width="73" height="17" rx="4" fill="#ffffff" />
+  <text x="302.5" y="235.0" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#000000">as_tool()</text>
+  <line x1="560" y1="214" x2="700" y2="268" stroke="#000000" stroke-width="2" marker-end="url(#flecha)" />
+  <rect x="618.5" y="223.0" width="73" height="17" rx="4" fill="#ffffff" />
+  <text x="655.0" y="235.0" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#000000">as_tool()</text>
+  <rect x="95" y="268" width="280" height="66" rx="10" ry="10" fill="#ffffff" stroke="#000000" stroke-width="2.5" />
+  <text x="235.0" y="294" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="14" font-weight="bold" fill="#000000">Gerente de Informacion</text>
+  <text x="235.0" y="313" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#000000">Nivel 2 - tactico</text>
+  <rect x="600" y="268" width="300" height="66" rx="10" ry="10" fill="#ffffff" stroke="#000000" stroke-width="2.5" />
+  <text x="750.0" y="294" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="14" font-weight="bold" fill="#000000">Gerente de Operaciones de Vuelo</text>
+  <text x="750.0" y="313" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#000000">Nivel 2 - tactico: exige clima antes de agendar</text>
+  <line x1="235" y1="334" x2="235" y2="386" stroke="#000000" stroke-width="2" marker-end="url(#flecha)" />
+  <rect x="198.5" y="342.0" width="73" height="17" rx="4" fill="#ffffff" />
+  <text x="235.0" y="354.0" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#000000">as_tool()</text>
+  <line x1="690" y1="334" x2="600" y2="386" stroke="#000000" stroke-width="2" marker-end="url(#flecha)" />
+  <rect x="586.5" y="342.0" width="73" height="17" rx="4" fill="#ffffff" />
+  <text x="623.0" y="354.0" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#000000">as_tool()</text>
+  <line x1="810" y1="334" x2="855" y2="386" stroke="#000000" stroke-width="2" marker-end="url(#flecha)" />
+  <rect x="822.0" y="342.0" width="73" height="17" rx="4" fill="#ffffff" />
+  <text x="858.5" y="354.0" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#000000">as_tool()</text>
+  <rect x="130" y="386" width="210" height="60" rx="10" ry="10" fill="#ffffff" stroke="#000000" stroke-width="2.5" />
+  <text x="235.0" y="412" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="14" font-weight="bold" fill="#000000">Agente FAQ</text>
+  <text x="235.0" y="431" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#000000">Nivel 3 - operativo</text>
+  <rect x="495" y="386" width="210" height="60" rx="10" ry="10" fill="#ffffff" stroke="#000000" stroke-width="2.5" />
+  <text x="600.0" y="412" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="14" font-weight="bold" fill="#000000">Agente Clima</text>
+  <text x="600.0" y="431" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#000000">Nivel 3 - operativo</text>
+  <rect x="750" y="386" width="210" height="60" rx="10" ry="10" fill="#ffffff" stroke="#000000" stroke-width="2.5" />
+  <text x="855.0" y="412" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="14" font-weight="bold" fill="#000000">Agente Agenda</text>
+  <text x="855.0" y="431" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#000000">Nivel 3 - operativo</text>
+  <line x1="235" y1="446" x2="235" y2="472" stroke="#000000" stroke-width="2" marker-end="url(#flecha)" />
+  <line x1="600" y1="446" x2="600" y2="472" stroke="#000000" stroke-width="2" marker-end="url(#flecha)" />
+  <line x1="855" y1="446" x2="855" y2="472" stroke="#000000" stroke-width="2" marker-end="url(#flecha)" />
+  <rect x="130" y="472" width="210" height="50" rx="8" fill="#ffffff" stroke="#000000" stroke-width="1.5" stroke-dasharray="4 3" />
+  <text x="140" y="488" font-family="Menlo,Consolas,monospace" font-size="10.5" fill="#000000">buscar_en_faqs()</text>
+  <text x="140" y="503" font-family="Menlo,Consolas,monospace" font-size="10.5" fill="#000000">listar_temas_faq()</text>
+  <rect x="495" y="472" width="210" height="65" rx="8" fill="#ffffff" stroke="#000000" stroke-width="1.5" stroke-dasharray="4 3" />
+  <text x="505" y="488" font-family="Menlo,Consolas,monospace" font-size="10.5" fill="#000000">fecha_de_hoy()</text>
+  <text x="505" y="503" font-family="Menlo,Consolas,monospace" font-size="10.5" fill="#000000">consultar_clima()</text>
+  <text x="505" y="518" font-family="Menlo,Consolas,monospace" font-size="10.5" fill="#000000">evaluar_condiciones_de_salto()</text>
+  <rect x="750" y="472" width="210" height="80" rx="8" fill="#ffffff" stroke="#000000" stroke-width="1.5" stroke-dasharray="4 3" />
+  <text x="760" y="488" font-family="Menlo,Consolas,monospace" font-size="10.5" fill="#000000">consultar_disponibilidad()</text>
+  <text x="760" y="503" font-family="Menlo,Consolas,monospace" font-size="10.5" fill="#000000">agendar_cita()</text>
+  <text x="760" y="518" font-family="Menlo,Consolas,monospace" font-size="10.5" fill="#000000">listar_citas()</text>
+  <text x="760" y="533" font-family="Menlo,Consolas,monospace" font-size="10.5" fill="#000000">cancelar_cita()</text>
+  <text x="490.0" y="612" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="12.5" fill="#000000">El Director no conoce Open-Meteo ni la agenda: solo sabe a que gerencia mandar cada caso.</text>
+  <text x="490.0" y="633" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="12.5" fill="#000000">La regla "primero clima, despues cita" vive en el Gerente de Operaciones, duenio de ambos especialistas.</text>
+  
+</svg>

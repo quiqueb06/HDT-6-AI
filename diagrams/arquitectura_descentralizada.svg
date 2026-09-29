@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="660" viewBox="0 0 980 660">
+  <defs>
+    <marker id="flecha" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#000000" />
+    </marker>
+    <marker id="flecha_suave" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#000000" />
+    </marker>
+  </defs>
+  <rect width="980" height="660" fill="#ffffff" />
+  <text x="490.0" y="40" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="22"
+        font-weight="bold" fill="#000000">Arquitectura 3 - Orquestacion descentralizada</text>
+  <text x="490.0" y="63" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="13"
+        fill="#000000">architectures/decentralized.py</text>
+  <rect x="400" y="80" width="180" height="44" rx="10" ry="10" fill="#ffffff" stroke="#000000" stroke-width="2.5" />
+  <text x="490.0" y="106" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="14" font-weight="bold" fill="#000000">Usuario</text>
+  <line x1="490" y1="124" x2="490" y2="156" stroke="#000000" stroke-width="2" marker-end="url(#flecha)" />
+  <rect x="457.0" y="122.0" width="66" height="17" rx="4" fill="#ffffff" />
+  <text x="490.0" y="134.0" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#000000">consulta</text>
+  <rect x="355" y="156" width="270" height="58" rx="10" ry="10" fill="#ffffff" stroke="#000000" stroke-width="2.5" />
+  <text x="490.0" y="182" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="14" font-weight="bold" fill="#000000">Recepcion</text>
+  <text x="490.0" y="201" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#000000">Triage inicial, no responde contenido</text>
+  <line x1="420" y1="214" x2="200" y2="300" stroke="#000000" stroke-width="2" marker-end="url(#flecha)" />
+  <rect x="253.5" y="239.0" width="73" height="17" rx="4" fill="#ffffff" />
+  <text x="290.0" y="251.0" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#000000">handoff()</text>
+  <line x1="490" y1="214" x2="490" y2="300" stroke="#000000" stroke-width="2" marker-end="url(#flecha)" />
+  <rect x="453.5" y="239.0" width="73" height="17" rx="4" fill="#ffffff" />
+  <text x="490.0" y="251.0" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#000000">handoff()</text>
+  <line x1="560" y1="214" x2="780" y2="300" stroke="#000000" stroke-width="2" marker-end="url(#flecha)" />
+  <rect x="653.5" y="239.0" width="73" height="17" rx="4" fill="#ffffff" />
+  <text x="690.0" y="251.0" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#000000">handoff()</text>
+  <rect x="90" y="300" width="220" height="64" rx="10" ry="10" fill="#ffffff" stroke="#000000" stroke-width="2.5" />
+  <text x="200.0" y="326" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="14" font-weight="bold" fill="#000000">Agente FAQ</text>
+  <text x="200.0" y="345" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#000000">Atiende y transfiere</text>
+  <rect x="380" y="300" width="220" height="64" rx="10" ry="10" fill="#ffffff" stroke="#000000" stroke-width="2.5" />
+  <text x="490.0" y="326" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="14" font-weight="bold" fill="#000000">Agente Clima</text>
+  <text x="490.0" y="345" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#000000">Open-Meteo + veredicto</text>
+  <rect x="670" y="300" width="220" height="64" rx="10" ry="10" fill="#ffffff" stroke="#000000" stroke-width="2.5" />
+  <text x="780.0" y="326" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="14" font-weight="bold" fill="#000000">Agente Agenda</text>
+  <text x="780.0" y="345" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#000000">Citas y cupos</text>
+  <line x1="310" y1="332" x2="380" y2="332" stroke="#000000" stroke-width="2" marker-end="url(#flecha)" marker-start="url(#flecha)" />
+  <rect x="315.5" y="314.0" width="59" height="17" rx="4" fill="#ffffff" />
+  <text x="345.0" y="326.0" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#000000">handoff</text>
+  <line x1="600" y1="332" x2="670" y2="332" stroke="#000000" stroke-width="2" marker-end="url(#flecha)" marker-start="url(#flecha)" />
+  <rect x="605.5" y="314.0" width="59" height="17" rx="4" fill="#ffffff" />
+  <text x="635.0" y="326.0" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#000000">handoff</text>
+  <path d="M 90 332 H 42 V 566 H 938 V 332 H 890" fill="none" stroke="#000000" stroke-width="2" stroke-linejoin="round" marker-end="url(#flecha)" marker-start="url(#flecha)" /><rect x="440" y="553" width="100" height="18" rx="4" fill="#ffffff" /><text x="490" y="566" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="11" fill="#000000">handoff</text>
+  <line x1="200" y1="364" x2="200" y2="440" stroke="#000000" stroke-width="2" marker-end="url(#flecha)" />
+  <line x1="490" y1="364" x2="490" y2="440" stroke="#000000" stroke-width="2" marker-end="url(#flecha)" />
+  <line x1="780" y1="364" x2="780" y2="440" stroke="#000000" stroke-width="2" marker-end="url(#flecha)" />
+  <rect x="90" y="440" width="220" height="50" rx="8" fill="#ffffff" stroke="#000000" stroke-width="1.5" stroke-dasharray="4 3" />
+  <text x="100" y="456" font-family="Menlo,Consolas,monospace" font-size="10.5" fill="#000000">buscar_en_faqs()</text>
+  <text x="100" y="471" font-family="Menlo,Consolas,monospace" font-size="10.5" fill="#000000">listar_temas_faq()</text>
+  <rect x="380" y="440" width="220" height="65" rx="8" fill="#ffffff" stroke="#000000" stroke-width="1.5" stroke-dasharray="4 3" />
+  <text x="390" y="456" font-family="Menlo,Consolas,monospace" font-size="10.5" fill="#000000">fecha_de_hoy()</text>
+  <text x="390" y="471" font-family="Menlo,Consolas,monospace" font-size="10.5" fill="#000000">consultar_clima()</text>
+  <text x="390" y="486" font-family="Menlo,Consolas,monospace" font-size="10.5" fill="#000000">evaluar_condiciones_de_salto()</text>
+  <rect x="670" y="440" width="220" height="95" rx="8" fill="#ffffff" stroke="#000000" stroke-width="1.5" stroke-dasharray="4 3" />
+  <text x="680" y="456" font-family="Menlo,Consolas,monospace" font-size="10.5" fill="#000000">consultar_disponibilidad()</text>
+  <text x="680" y="471" font-family="Menlo,Consolas,monospace" font-size="10.5" fill="#000000">agendar_cita()</text>
+  <text x="680" y="486" font-family="Menlo,Consolas,monospace" font-size="10.5" fill="#000000">listar_citas()</text>
+  <text x="680" y="501" font-family="Menlo,Consolas,monospace" font-size="10.5" fill="#000000">cancelar_cita()</text>
+  <text x="680" y="516" font-family="Menlo,Consolas,monospace" font-size="10.5" fill="#000000">evaluar_condiciones_de_salto()</text>
+  <text x="490.0" y="606" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="12.5" fill="#000000">No hay jefe: el agente que recibe el handoff toma el control de la conversacion y habla directo con el usuario.</text>
+  <text x="490.0" y="627" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="12.5" fill="#000000">La regla de seguridad se garantiza en codigo: agendar_cita() revalida Open-Meteo y rechaza fechas NO_SEGURAS.</text>
+  
+</svg>
